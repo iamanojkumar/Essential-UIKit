@@ -1,0 +1,22 @@
+{
+  "name": "uikit",
+  "version": "1.0.0",
+  "description": "Essential UIKit",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamanojkumar/Essential-UIKit.git"
+  },
+  "keywords": [
+    "uikit"
+  ],
+  "author": "Manoj Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamanojkumar/Essential-UIKit/issues"
+  },
+  "homepage": "https://github.com/iamanojkumar/Essential-UIKit#readme"
+}
