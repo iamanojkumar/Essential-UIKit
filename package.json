@@ -4,7 +4,9 @@
   "description": "Essential UIKit",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "sass": "sass --no-source-map Scss:Css",
+    "sass watch": "sass --watch Scss:Css"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/iamanojkumar/Essential-UIKit/issues"
   },
-  "homepage": "https://github.com/iamanojkumar/Essential-UIKit#readme"
+  "homepage": "https://github.com/iamanojkumar/Essential-UIKit#readme",
+  "dependencies": {
+    "sass": "^1.69.6"
+  }
 }
