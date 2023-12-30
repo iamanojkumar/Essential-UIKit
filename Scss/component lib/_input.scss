@@ -1,0 +1,20 @@
+@mixin inputbase() {
+    display: flex;
+    min-width: 124px;
+    max-width: 320px;
+    padding: 12px 20px;
+    align-items: center;
+    border-radius: 6px;
+    border: 1px solid #ABB0BA;
+    background: $grey90;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.06) inset;
+    //font
+    @include input-text;
+    
+}
+
+.inputbase{
+@include inputbase();
+align-self: stretch;
+
+}

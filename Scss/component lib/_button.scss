@@ -1,0 +1,38 @@
+@import "../typography";
+
+.primarybutton {
+    display: inline-flex;
+    min-width: 124px;
+    max-width: 320px;
+    padding: 12px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 6px;
+    border: 1px solid $grey50;
+    background: $grey10;
+    overflow: hidden;
+    color: $grey90;
+    text-overflow: ellipsis;
+    /* button text */
+    @include buttontext;
+}
+
+.secondarybutton {
+    display: inline-flex;
+    min-width: 124px;
+    max-width: 320px;
+    padding: 12px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 6px;
+    border: 1px solid $grey80;
+    background: $grey90;
+    overflow: hidden;
+    color: $grey10;
+    text-overflow: ellipsis;
+
+    /* button text */
+    @include buttontext;
+}

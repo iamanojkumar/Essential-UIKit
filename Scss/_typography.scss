@@ -1,0 +1,37 @@
+.h1{
+    color: $grey10;
+font-family: Roboto Flex;
+font-size: 41px;
+font-style: normal;
+font-weight: 500;
+line-height: 61px; /* 148.78% */
+}
+
+.subtext{
+    align-self: stretch;
+color: $grey30;
+font-family: Roboto Flex;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px /* 150% */;
+
+}
+
+@mixin buttontext{
+    font-family: Roboto Flex;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 125% */
+letter-spacing: 0.3px;
+}
+
+@mixin input-text{
+    font-family: Roboto Flex;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px /* 125% */;
+    letter-spacing: 0.3px;    
+}
