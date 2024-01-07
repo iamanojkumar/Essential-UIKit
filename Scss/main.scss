@@ -1,0 +1,55 @@
+// default styles
+* {
+    padding: 0;
+    margin: 0;
+    // display: block;
+    
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Alike+Angular&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700&family=Work+Sans&display=swap');
+
+// color styles
+$H: 220;
+$S: 10%;
+$L: 10%;
+$A: 1;
+
+// hsla(220, 10%, 10%, 1)
+
+$grey10: hsla($H, $S, $L, $A);
+$grey20: hsla($H, $S, $L+10, $A);
+$grey30: hsla($H, $S, $L+10, $A);
+$grey40: hsla($H, $S, $L+10, $A);
+$grey50: hsla($H, $S, $L+10, $A);
+$grey60: hsla($H, $S, $L+10, $A);
+$grey70: hsla($H, $S, $L+10, $A);
+$grey80: hsla($H, $S, $L+10, $A);
+$grey90: hsla($H, $S, $L+80, $A);
+
+$primary: $grey10;
+$white: white;
+$black: black;
+$surface1: hsla(225, 10%, 92%, 1);
+
+
+// temp
+
+body {
+    background-color: $surface1;
+}
+
+//uitilities
+$base-padding: 4px;
+$base-margin: 4px;
+$base-gap: 4px;
+@import "./utilities";
+
+
+//components
+@import "./component\ lib/_button.scss";
+@import "./component\ lib/_input.scss";
+@import "./typography";
+@import "./breakpoints";
+@import "./playground";
+@import "./grid";

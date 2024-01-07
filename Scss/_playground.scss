@@ -1,0 +1,13 @@
+.test-div{
+    width: auto;
+height: 199px;
+flex-shrink: 0;
+background: #FFC8C8; 
+color: $grey10;
+align-content: center;
+display: flex;
+flex-wrap: wrap;
+align-self: stretch;
+text-align: center;
+text-justify: auto;
+}

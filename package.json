@@ -1,0 +1,27 @@
+{
+  "name": "uikit",
+  "version": "1.0.0",
+  "description": "Essential UIKit",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "sass": "sass --no-source-map Scss:Css",
+    "sass watch": "sass --watch Scss:Css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamanojkumar/Essential-UIKit.git"
+  },
+  "keywords": [
+    "uikit"
+  ],
+  "author": "Manoj Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamanojkumar/Essential-UIKit/issues"
+  },
+  "homepage": "https://github.com/iamanojkumar/Essential-UIKit#readme",
+  "dependencies": {
+    "sass": "^1.69.6"
+  }
+}
